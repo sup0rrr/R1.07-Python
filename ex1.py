@@ -1,11 +1,8 @@
-nom = 'Brunner'
-prenom = 'Arthur'
-math = 16.25
-anglais = 14.97
-info = 18.5
-promotion = 2023
-moy = (math + anglais + info) /3
-print(type(nom),type(prenom),type(math),type(anglais),type(info),type(promotion),type(moy))
-print( 'Létudiant', prenom, nom,'de la promotion', promotion, 'a une moyenne de ', moy)
-
- 
+x = int(input("entrez x :"))
+y = int(input(" entrez y :"))
+permutation = 0
+permutation = x
+print("valeur avant permutation :","x = ",x,"y = ",y)
+x = y
+y = permutation
+print("valeur apres permutation :","x = ",x,"y = ",y)
